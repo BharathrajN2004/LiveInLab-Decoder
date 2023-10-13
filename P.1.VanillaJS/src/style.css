@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: none;
+  font-size: small;
+  overflow: hidden;
+  color: white;
+}
+
+/* sidebar */
+body {
+  display: flex;
+}
+
+.sidebar {
+  background: linear-gradient(rgb(45, 46, 58), rgb(64, 65, 84));
+  width: 4.5vw;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo section */
+
+
+.logo {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vh;
+}
+
+#logoimg {
+  height: 80%;
+  width: 80%;
+  align-self: center;
+}
+
+#logoname {
+  color: aliceblue;
+  font-size: 0.9rem;
+  align-self: center;
+}
+
+/* midle of asside */
+
+.midiconlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 3vh;
+  align-items: center;
+  margin-top: 6vh;
+}
+
+.midiconlist img {
+  height: 4.5vh;
+  width: 2.5vw;
+}
+
+.partion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.partion h4 {
+  font-weight: 600;
+  position: absolute;
+  left: 4.5vw;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.682), rgba(255, 255, 255, 0.31));
+  padding: 0.5vh 0.5vw;
+  border: 1.3px solid rgba(245, 245, 245, 0.784);
+  border-radius: 6px;
+  color: white;
+}
+
+/* feature */
+
+
+/* end aside */
+
+#settings {
+  margin-bottom: 1vh;
+  height: 5vh;
+  width: 2.5vw;
+}
+
+/* side navigation bar work ends (: */
+
+
+
+
+
+.fullpage {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(38, 39, 49, 1), rgba(38, 39, 49, 1), rgb(71, 72, 94));
+}
+
+/* top navigation bar */
+.taskbar {
+  background: linear-gradient(to right, rgb(45, 46, 58), rgba(84, 86, 103, 1), rgb(78, 80, 100));
+  height: 4vh;
+  width: 96vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.window {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  padding-right: 1vw;
+}
+
+.window span {
+  border-radius: 50%;
+  height: 2vh;
+  width: 2vh;
+}
+
+#min {
+  background: linear-gradient(to bottom right, rgba(201, 255, 182, 1), rgba(108, 255, 220, 1));
+}
+
+#max {
+  background: linear-gradient(to bottom right, rgba(133, 255, 213, 1), rgba(220, 140, 248, 1));
+}
+
+#close {
+  background: linear-gradient(to bottom right, rgba(215, 163, 255, 1), rgba(255, 133, 133, 1));
+}
+
+
+#rulerdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+/* profile page */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 16vw;
+  height: 96vh;
+  /* background: linear-gradient(to bottom,rgba(38, 39, 49, 1), rgba(38, 39, 49, 1),rgb(71, 72, 94)); */
+  background: linear-gradient(to bottom, rgba(96, 114, 151, 1), rgba(40, 48, 64, 0.38));
+  /* background-color: pink; */
+}
+
+.seppro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.profimg {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: fit-content;
+  max-height: fit-content;
+  /* background-color: pink; */
+}
+
+.profimg #hex {
+  height: 16vh;
+  width: 8vw;
+}
+
+.profile #men {
+  position: absolute;
+  height: 8vh;
+  width: 4vw;
+}
+
+.namesec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vh;
+}
+
+.namesec #name {
+  font-size: small;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.namesec #mail {
+  font-size: smaller;
+  color: rgba(240, 248, 255, 0.647);
+  font-weight: 400;
+}
+
+.teamgoals,
+.mainproject {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(215, 105, 123); */
+  align-items: center;
+  gap: 1vh;
+}
+
+.teamgoals #tgname,
+.mainproject #mainname {
+  padding: 5px 15px;
+  font-size: medium;
+  font-weight: 500;
+  color: aliceblue;
+  border: 1.5px solid rgb(148, 148, 148);
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, rgba(52, 52, 52, 0.732), rgba(94, 94, 94, 0.342));
+}
+
+
+.device {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(178, 74, 91); */
+  margin-bottom: 2vh;
+  gap: 0.6vh;
+}
+
+.device #deviceimg {
+  height: 7vh;
+  width: 3.5vw;
+}
+
+/* main page tings */
+
+.mainpage {
+  height: 96vh;
+  width: 80vw;
+  background: linear-gradient(to bottom, rgba(38, 39, 49, 0.455), rgba(38, 39, 49, 0.351), rgba(71, 72, 94, 0.301)),
+    no-repeat url('./assets/bag.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+}
+
+.segment1 {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+  padding-left: 8vw;
+}
+
+#perimg,
+#offimg {
+  height: 26vh;
+  width: 30vw;
+  border-radius: 10px;
+
+}
+
+#temp,
+#curent {
+  font-size: 22px;
+  font-weight: 700;
+  color: bisque;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+}
+
+#templates {
+  display: flex;
+  gap: 8vw;
+}
+
+.segment2 , .segment3{
+  padding-left: 10vw;
+}
+#templates img {
+  height: 15vh;
+  width: 15vw;
+  border-radius: 6px;
+}
+
+#theads {
+  display: flex;
+  justify-content: space-around;
+  gap: 2vw;
+}
+
+#theads img {
+  height: 8vh;
+  width: 14vw;
+  border-radius: 4px;
+}
+
+#teamhead {
+  font-size: larger;
+  font-weight: 400;
+  color: rgba(240, 248, 255, 0.668);
+  margin-bottom: 0.8vh;
+  margin-left: 0.5vw;
+}
+
+
+.none {
+  display: none;
+}
